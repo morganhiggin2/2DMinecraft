@@ -1,0 +1,4 @@
+Copy these DLL's into here:
+AllProjectsFolder -> "Project Name" -> "Project Name" -> Debug
+
+Copy Dll's into your System folder: ex. C:\Windows\System32

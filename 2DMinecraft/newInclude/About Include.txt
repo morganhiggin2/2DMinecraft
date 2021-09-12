@@ -1,0 +1,9 @@
+Project -> Properties -> C/C++ -> General -> Aditional Include Directories
+May not need: Project -> Properties -> C/C++ -> General -> Aditional #using Directories
+
+All library header files go in here
+
+In program, ALWAYS use this main, not other mains such as int main(void):
+	int main(int argc, char *argv[])
+
+THIS MUST BE A CONSOLE PROJECT, NOT A WINDOW PROJECT

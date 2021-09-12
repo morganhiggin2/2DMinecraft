@@ -1,0 +1,15 @@
+Project -> Properties -> Linker -> Input -> Aditional Dependencies //for the list below
+Project -> Properties -> Linker -> General -> Aditional Library Dependencies //for the location of this folder
+
+opengl32.lib
+glew32s.lib
+glfw3.lib
+glfw3dll.lib
+glew32.lib
+
+Copy all .dll files above into your System Folder: ex. C:/Windows/System or into the folder where the vxproj is
+
+All .c or .cpp library files go in here
+Directly Include gl3w.c in your project
+
+Only include one of the two x86 or x64 at a time in this folder.
